@@ -18,3 +18,7 @@ console.log(usuario.trabaja)
 //agregar propidades a un objeto
 usuario.carrera="ing de sistemas"
 console.log(usuario)
+
+//Eliminar una propiedad
+delete usuario.trabaja
+console.log(usuario)
