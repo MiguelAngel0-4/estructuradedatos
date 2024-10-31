@@ -33,3 +33,14 @@ console.log('Recorrer un array de forEach')
 array2.forEach((elemento, index) => {
     console.log(`${elemento} en la posición ${index}`)
 })
+
+//eliminar index
+const array3 = [10, 23, 31, 42, 53]
+
+array3.shift()//Elimina el primer elemento del array
+array3.pop()//Elimina el primer elemento del array
+
+console.log('Recorrer un array de forEach')
+array3.forEach((elemento, index) => {
+    console.log(`${elemento} en la posición ${index}`)
+})
