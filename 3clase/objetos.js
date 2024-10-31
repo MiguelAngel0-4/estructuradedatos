@@ -2,6 +2,10 @@ const usuario={
     nombre: "carlos",
     edad: 25,
     trabaja: true,
+    //Agregar una funcion para saludar
+    saludar(){
+        console.log(`Hola, mi nombre es ${this.nombre} y tengo ${this.edad} años`)
+    }
 }
 //Imprimir a las propiedades de un objeto
 console.log(usuario)
