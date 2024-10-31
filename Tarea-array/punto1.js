@@ -1,0 +1,5 @@
+//1) Definir un arreglo de 5 componentes de tipo Float que representen las alturas de 5 personas.
+//Obtener el promedio de las mismas. Contar cuántas personas son más altas que el promedio y cuántas más bajas.
+
+//primero se define el arreglo de alturas en mi caso en metros
+const alturas= [1.75, 1.68, 1.82, 1.60, 1.78];
