@@ -26,3 +26,6 @@ console.log(usuario)
 //Consultar si una propiedad existe
 console.log(usuario.hasOwnProperty("nombre"))
 console.log(usuario.hasOwnProperty("apellido"))
+
+//Llamar a la funcion dentro del objeto
+usuario.saludar()
