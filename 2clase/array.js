@@ -23,3 +23,13 @@ array1.forEach((elemento, index) => {
 
 const index = array1.indexOf(53)//Busca el indice del arreglo
 console.log(index)
+
+//Insertar elemento
+const array2 = [1, 2, 3, 4, 5]
+
+array2.push(8)//Agrega un dato alfinal del arreglo
+array2.unshift(20)//Agrega un dato al principio del arreglo
+console.log('Recorrer un array de forEach')
+array2.forEach((elemento, index) => {
+    console.log(`${elemento} en la posición ${index}`)
+})
