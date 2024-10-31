@@ -22,5 +22,5 @@ alturas.forEach(altura => {
 
 //Resultados
 console.log(`Promedio de alturas: ${promedio.toFixed(2)} m`);
-console.log(`${masAltas} persona(s) más alta(s) que el promedio.`);
-console.log(`${masBajas} persona(s) más baja(s) que el promedio.`);
+console.log(`${masAltas} personas más altas que el promedio.`);
+console.log(`${masBajas} personas más bajas que el promedio.`);
