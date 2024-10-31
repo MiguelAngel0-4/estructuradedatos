@@ -7,3 +7,15 @@ const alturas= [1.75, 1.68, 1.82, 1.60, 1.78];
 //se calcula el promedio de la altura
 const suma = alturas.reduce((acumulador, altura) => acumulador + altura, 0);
 const promedio = suma / alturas.length;
+
+//verificamos cada altura respecto al promedio. Usando un conteo
+let masAltas = 0;
+let masBajas = 0;
+
+alturas.forEach(altura => {
+  if (altura > promedio) {
+    masAltas++;
+  } else if (altura < promedio) {
+    masBajas++;
+  }
+});
