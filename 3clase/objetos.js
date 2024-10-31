@@ -10,3 +10,7 @@ console.log(usuario)
 console.log(usuario.nombre)
 console.log(usuario.edad)
 console.log(usuario.trabaja)
+
+//agregar propidades a un objeto
+usuario.carrera="ing de sistemas"
+console.log(usuario)
