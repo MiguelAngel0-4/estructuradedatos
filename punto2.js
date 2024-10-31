@@ -13,3 +13,7 @@ let frutas = ["manzana", "pera", "plátano", "cereza"];
 // Encontrar la posición de "plátano"
 let posicionPlatano = frutas.indexOf("plátano");
 console.log(`Posición de "plátano": ${posicionPlatano}`);
+
+// Agregar "mango" al final del array
+frutas.push("mango");
+console.log("Después de agregar 'mango':", frutas);
