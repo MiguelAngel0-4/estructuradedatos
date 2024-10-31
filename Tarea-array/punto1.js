@@ -3,3 +3,7 @@
 
 //primero se define el arreglo de alturas en mi caso en metros
 const alturas= [1.75, 1.68, 1.82, 1.60, 1.78];
+
+//se calcula el promedio de la altura
+const suma = alturas.reduce((acumulador, altura) => acumulador + altura, 0);
+const promedio = suma / alturas.length;
