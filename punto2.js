@@ -9,3 +9,7 @@
 
 //creamos el array
 let frutas = ["manzana", "pera", "plátano", "cereza"];
+
+// Encontrar la posición de "plátano"
+let posicionPlatano = frutas.indexOf("plátano");
+console.log(`Posición de "plátano": ${posicionPlatano}`);
