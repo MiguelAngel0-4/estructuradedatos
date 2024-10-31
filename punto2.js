@@ -25,3 +25,7 @@ console.log("Después de agregar 'fresa' al inicio:", frutas);
 // eliminación el primer elemento del array
 frutas.shift();
 console.log("Después de eliminar el primer elemento:", frutas);
+
+// Eliminamos el último elemento del array
+frutas.pop();
+console.log("Después de eliminar el último elemento:", frutas);
