@@ -17,3 +17,7 @@ console.log(`Posición de "plátano": ${posicionPlatano}`);
 // Agregar "mango" al final del array
 frutas.push("mango");
 console.log("Después de agregar 'mango':", frutas);
+
+// Agregar "fresa" al inicio del array
+frutas.unshift("fresa");
+console.log("Después de agregar 'fresa' al inicio:", frutas);
